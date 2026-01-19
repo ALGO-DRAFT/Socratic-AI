@@ -1,0 +1,9 @@
+streamlit>=1.30.0
+openai-whisper>=20231117
+ollama>=0.1.6
+vaderSentiment>=3.3.2
+plotly>=5.18.0
+pandas>=2.1.4
+
+# Additional System Dependencies (installed via system package manager)
+# - ffmpeg (required by whisper for audio processing)
