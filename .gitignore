@@ -1,0 +1,64 @@
+# =============================================================
+# Socratic AI Journal – .gitignore
+# =============================================================
+
+# ── Secrets & Environment ─────────────────────────────────────
+.env
+*.env
+!.env.example
+
+# ── Python ───────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ── Virtual Environments ──────────────────────────────────────
+venv/
+.venv/
+env/
+ENV/
+
+# ── Database & Generated Artifacts ───────────────────────────
+*.db
+*.sqlite
+*.sqlite3
+data/
+
+# ── macOS ─────────────────────────────────────────────────────
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ── Windows ───────────────────────────────────────────────────
+Thumbs.db
+
+# ── IDE / Editors ─────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ── Jupyter ───────────────────────────────────────────────────
+.ipynb_checkpoints/
+
+# ── Testing & Coverage ────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ── Streamlit ─────────────────────────────────────────────────
+.streamlit/secrets.toml
+
+# ── Audio / Temp files ────────────────────────────────────────
+*.webm
+*.wav
+*.mp3
+tmp/
+temp/
